@@ -15,7 +15,7 @@
 int full = 0;
 int quick = 0;
 int field_rate = 1;
-float curvature = 0.1;
+float curvature = 0.0;
 char *argv0;
 char **cmd;
 

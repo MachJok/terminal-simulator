@@ -36,6 +36,6 @@ void main (void)
 
   vec3 col = vec3 (0.0);
   col += scanline * vec3 (0.8, 0.9, 1.0);
-  col += vec3 (0.10, 0.15, 0.10);
+  col += vec3 (0.05, 0.05, 0.05);
   gl_FragColor = vec4 (col, 1.0);
 }
